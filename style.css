@@ -87,6 +87,30 @@ main img {
   overflow-x: hidden;
 }
 
+.finding{
+  position: absolute;
+  margin-left: 65em;
+  margin-top: 10em;
+  width: 300px; 
+}
+
+#search{
+  background-color: transparent;
+  height: 100%;
+  width: 100%;
+  border:white solid 1px;
+  border-radius: 10px;
+  padding: 10px 25px;
+}
+
+input#search::placeholder{
+  color: white;
+  font-family: 'brandon-grotesque';
+  background-image: url(./img/lupa.png);
+  background-repeat: no-repeat; 
+  background-position: right;
+}
+
 footer {
   background-color: black;
   width: 100%;
